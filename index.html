@@ -20,12 +20,12 @@
       <div id="unity-warning"> </div>
     </div>
     <script>
-  
-   if ('serviceWorker' in navigator) {
-    window.addEventListener('load', function () {
-      navigator.serviceWorker.register('ServiceWorker.js');
-    });
-  }
+      window.addEventListener("load", function () {
+        if ("serviceWorker" in navigator) {
+        
+        }
+      });
+
       var container = document.querySelector("#unity-container");
       var canvas = document.querySelector("#unity-canvas");
       var loadingBar = document.querySelector("#unity-loading-bar");
